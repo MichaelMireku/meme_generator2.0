@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Whacky Meme Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Whacky Meme Generator</h1>
+        <div class="meme-container">
+            <img id="memeImg" alt="Random Meme">
+            <div class="button-container">
+                <button onclick="getRandomMeme()">Get Whacky Meme</button>
+                <button onclick="shareOnTwitter()">Share on Twitter</button>
+            </div>
+        </div>
+        <div class="trending-container">
+            <h2>Trending Memes</h2>
+            <ul id="trendingList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
